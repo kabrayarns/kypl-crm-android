@@ -1,0 +1,7 @@
+KYPL CRM - GitHub mobile APK build
+1. Create a PRIVATE GitHub repository with name kypl-crm-android; do not initialize README.
+2. Extract this ZIP on your phone.
+3. Upload the files/folders inside the extracted folder to the repository ROOT (not an extra parent folder). Important: include hidden .github/workflows/build-apk.yml.
+4. Open repository > Actions > Build KYPL CRM APK > Run workflow, or wait for automatic run after push to main.
+5. Open successful run > Artifacts > KYPL-CRM-APK; download ZIP, extract and install app-debug.apk.
+This is a DEBUG APK signed with Android's default debug key, intended for testing/internal distribution. Not a production-signed release.
